@@ -11,6 +11,10 @@ void setup() {
   size(400, 800);
   background(255);
   Newfont =createFont("Georgia", 32);
+
+  String teacher1and3=("Dr.Pineda");
+  String teacher2=("Mrs.Davies");
+  String teacher4=("Mrs.Baycroft");
 }
 
 void draw() {

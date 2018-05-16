@@ -25,4 +25,7 @@ void draw() {
   textFont(Newfont);
   fill(0);
   text("Block 1", 21, 69);
+  text("Block 2", 21, 269);
+  text("Block 3", 21, 469);
+  text("Block 4", 21, 669);
 }

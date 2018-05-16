@@ -6,15 +6,20 @@
  * 
  */
 PFont Newfont;
+PFont Newfont2;
 
 void setup() {
   size(400, 800);
   background(255);
   Newfont =createFont("Georgia", 32);
-
+  Newfont2 =createFont("Georgia", 12);
   String teacher1and3=("Dr.Pineda");
   String teacher2=("Mrs.Davies");
   String teacher4=("Mrs.Baycroft");
+  String course1=("Robotics 10");
+  String course2=("English 10-1 Ap");
+  String course3=("Computer Science 10");
+  String course4=("Science 10");
 }
 
 void draw() {

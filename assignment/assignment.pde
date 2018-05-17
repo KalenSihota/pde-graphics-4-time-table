@@ -15,7 +15,7 @@ String teacher4=("Mrs.Baycroft");
 //course strings
 String course1=("Robotics 10");
 String course2=("English 10-1 Ap");
-String course3=("Computer Science 10");
+String course3=("Computer Science \n 10");
 String course4=("Science 10");
 
 void setup() {
@@ -47,11 +47,12 @@ void draw() {
   textFont(Newfont2);
   //teacher text
   text(teacher1and3, 221, 50);
-  text(teacher2, 221, 50);
-  text(teacher1and3, 221, 50);
-  text(teacher4, 221, 50);
-  text(course1, 221, 50);
-  text(course2, 221, 50);
-  text(course3, 221, 50);
-  text(course4, 221, 50);
+  text(teacher2, 221, 250);
+  text(teacher1and3, 221, 450);
+  text(teacher4, 221, 650);
+  //classes text
+  text(course1, 221, 150);
+  text(course2, 221, 350);
+  text(course3, 211, 550);
+  text(course4, 221, 750);
 }

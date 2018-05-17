@@ -43,8 +43,15 @@ void draw() {
   text("Block 2", 21, 269);
   text("Block 3", 21, 469);
   text("Block 4", 21, 669);
-  //font for the teacher
+  //font for the teacher &classes
   textFont(Newfont2);
   //teacher text
   text(teacher1and3, 221, 50);
+  text(teacher2, 221, 50);
+  text(teacher1and3, 221, 50);
+  text(teacher4, 221, 50);
+  text(course1, 221, 50);
+  text(course2, 221, 50);
+  text(course3, 221, 50);
+  text(course4, 221, 50);
 }
